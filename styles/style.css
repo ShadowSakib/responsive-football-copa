@@ -48,13 +48,13 @@ header {
 .banner-button span {
   padding-left: 12px;
 }
-/* Button Hover  */
+/* Button Hover effect  */
 .banner-button:hover {
   -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
-/* Image animation */
+/* Banner Image Animation  */
 @keyframes image-effect {
   50% {
     transform: scale(0.9);
@@ -72,6 +72,7 @@ header {
 }
 
 /* Article Style */
+
 .players-container {
   padding-top: 70px;
 }
@@ -114,7 +115,8 @@ header {
 .player:hover {
   box-shadow: 0px 0px 40px gray;
 }
-/* Picture gallery */
+/* Players Picture gallery */
+
 .gallery h1 {
   font-weight: 700;
   font-size: 46px;
@@ -147,8 +149,6 @@ header {
 .first-row img:hover {
   box-shadow: 0px 0px 10px white;
 }
-
-/* ================
 
 /* Footer Style  */
 .footer-logo {
@@ -184,9 +184,7 @@ ul li a:hover {
   margin-top: -5px;
 }
 
-/* Mobile Responsive Section */
-
-/* Banner Section */
+/* Mobile Responsive */
 
 @media only screen and (max-width: 480px) {
   .banner-container {
@@ -234,8 +232,6 @@ ul li a:hover {
     margin: 0px -16px -50px -16px;
   }
 }
-
-/* article Section */
 
 @media only screen and (max-width: 480px) {
   .players-container {
@@ -296,8 +292,6 @@ ul li a:hover {
 
 /* Tablet Responsive Section */
 
-/* Banner Section */
-
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
   .banner-container {
     height: 430px;
@@ -337,8 +331,6 @@ ul li a:hover {
     margin: 0px -90px -80px -16px;
   }
 }
-
-/* article Section */
 
 @media only screen and (min-width: 480px) and (max-width: 1024px) {
   .players-container {
