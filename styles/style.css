@@ -114,6 +114,41 @@ header {
 .player:hover {
   box-shadow: 0px 0px 40px gray;
 }
+/* Picture gallery */
+.gallery h1 {
+  font-weight: 700;
+  font-size: 46px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.gallery {
+  height: 350px;
+  background-color: orangered;
+}
+
+.test {
+  height: 140px;
+  width: 164px;
+  background-color: aliceblue;
+}
+.first-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding-left: 78px;
+  padding-right: 58px;
+}
+.first-row img {
+  width: 150px;
+  padding-top: 6px;
+  padding-left: 7px;
+}
+.first-row img:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+/* ================
 
 /* Footer Style  */
 .footer-logo {
@@ -153,7 +188,7 @@ ul li a:hover {
 
 /* Banner Section */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 480px) {
   .banner-container {
     background-color: #2d25a0;
     height: 695px;
@@ -161,7 +196,7 @@ ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
   }
   .banner-tittle {
-    width: 60%;
+    width: auto;
     padding-left: 16px;
     padding-top: 112px;
     padding-right: 66px;
@@ -202,11 +237,11 @@ ul li a:hover {
 
 /* article Section */
 
-@media only screen and (max-width: 688px) {
+@media only screen and (max-width: 480px) {
   .players-container {
     padding-top: 47px;
   }
-  .player {
+  .players {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
@@ -219,6 +254,39 @@ ul li a:hover {
     box-shadow: 0px 0px 2px 1px gray;
     margin-right: 10px;
   }
+}
+
+@media only screen and (max-width: 480px) {
+  .gallery h1 {
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  .gallery {
+    height: 250px;
+    background-color: #2d25a0;
+  }
+
+  .test {
+    height: 51px;
+    width: 164px;
+    background-color: aliceblue;
+  }
+  .first-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+  .first-row img {
+    width: 50px;
+    padding-top: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
   .footer-logo img {
     height: 65px;
     padding-top: 40px;
@@ -230,7 +298,7 @@ ul li a:hover {
 
 /* Banner Section */
 
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
   .banner-container {
     height: 430px;
     display: grid;
@@ -272,15 +340,47 @@ ul li a:hover {
 
 /* article Section */
 
-@media only screen and (min-width: 688px) and (max-width: 992px) {
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
   .players-container {
     padding-top: 47px;
   }
-  .player {
+  .players {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     justify-content: center;
     grid-gap: 30px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+  .gallery h1 {
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+  }
+
+  .gallery {
+    height: 350px;
+    background-color: #2d25a0;
+  }
+
+  .test {
+    height: 94px;
+    width: 164px;
+    background-color: aliceblue;
+  }
+  .first-row {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 58px;
+    padding-right: 58px;
+  }
+  .first-row img {
+    width: 100px;
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-right: 3px;
   }
   .footer-logo img {
     height: 65px;
